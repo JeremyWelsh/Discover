@@ -1,0 +1,259 @@
+*{box-sizing: border-box;}
+.col-1{width:8.33%;}
+.col-2{width:16.66%;}
+.col-3{width:25%;}
+.col-4{width:33.33%;}
+.col-5{width:41.66%;}
+.col-6{width:50%;}
+.col-7{width:58.33%;}
+.col-8{width:66.66%;}
+.col-9{width:75%;}
+.col-10{width:83.33%;}
+.col-11{width:91.66%;}
+.col-12{width:100%;}
+
+
+/*-------------- main styles -----------*/
+
+html{
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 1em;
+}
+
+body{
+    background-image: url(background%20test40sat.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:0; 
+}
+
+/* ----------- font types ---------*/
+
+h1{
+    font-size: 2.5em;
+    
+}
+h2{
+    font-size: 1.5em;     
+}
+/* ------------ nav bar --------------*/
+
+nav{
+    top: 0;
+    
+    background-color: #404040 ;
+    display: block;
+    font-size: 1.5em;
+    position: fixed;
+    font-style: italic;  
+    float:left;
+    transition: top 0.5s;
+}
+
+#navBar a{
+    color: White;
+    text-decoration: none;
+    float: left;
+    display: block;
+    text-align: center;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+#navBar a:hover {
+    background-color: #99ff80;
+    color: black;
+}
+
+
+/* ---------all wrapper related styles ---------------*/
+
+#Wrapper{
+    overflow: hidden;
+    box-shadow: 0 0 1em black;
+    margin-top: 3.3em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    height:100%;
+    
+}
+
+ /* banner img */
+#bannerimg{
+	
+}
+
+/* -------------------------------------index styles ------------------- */
+
+/*  ----------- top text box  ------*/
+#top{
+    text-align: center;
+    margin-bottom: 4em;
+}
+#top h1{
+    font-size: 2.5em;
+    margin-top:0.5em;
+    margin-bottom:0.1em;
+}
+
+#top hr{
+    border: 2px solid #99ff80;
+    border-radius: 2px;
+    width:10%;
+    box-shadow: 0 10em 10em -10em black;
+}
+#top p{
+    font-size: 1.1em;
+    margin-top: 1.5em;
+    margin-left:auto;
+    margin-right:auto;
+    width: 70%;
+}
+/*-------------- bottom boxes --------------- */
+#indexBoxes{
+    background-color: #404040;
+}
+
+.boxl{
+    background-color: #404040;
+    padding: 1.5em;
+    padding-right: 0.75em;
+    float:left;
+    color: white;
+}
+.boxr{
+    background-color: #404040;
+    padding: 1.5em;
+    padding-left: 0.75em;
+    float:left;
+    color: white;
+}
+.boxb{
+    background-color: #404040;
+    padding: 1.5em;
+    padding-bottom: 2.5em;
+    float:left;
+    color: white;
+}
+
+
+a{
+    color: White;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+a:hover {
+    color: #99ff80;
+}
+
+footer{
+    float: none;
+    text-align: center;
+    font-size: 1.5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+/*----------------------Booking Page---------------------*/
+
+#bookboxes{
+    background-color: #404040;
+}
+
+.boxBook{
+     background-color: #404040;
+    padding: 1.5em;
+    padding-bottom: 2.5em;
+    float:left;
+    color: white;
+}
+.bookingForm{
+    padding-left: 3em;
+    float:right;
+}
+
+
+/*---------------------services page ---------------------------*/
+
+.serviceBox{
+    background-color: #404040;
+    padding: 1.5em;
+    padding-bottom: 1.5em;
+    float:left;
+    color: white;
+    margin-bottom:0.5em
+}
+#serviceimg{
+    float:left;
+    
+}
+#serviceText{
+    float:left;
+
+}
+.tourName{
+    font-size: 2em;
+    margin:0;
+    padding:0.5em;
+}
+#bio{
+    padding:1em;
+    float:left;
+}
+#otherInfo{
+    padding:1em;
+    float:left;
+}
+
+/*----------------------- tables -----------------------*/
+
+table, td {
+    border: 1px solid White;
+    border-collapse: collapse;
+}
+td {
+    width:50%;
+    text-align:center;
+}
+
+#tourGuides{
+    padding: 2em;
+    text-align:center;
+}
+#tourGuides h2{
+    margin-bottom: 0.25em;
+}
+#tourGuides hr{
+    border: 2px solid #99ff80;
+    border-radius: 2px;
+    width:20%;
+    box-shadow: 0 10em 10em -10em black;
+}
+
+
+/* -------------------------- faq--------------------*/
+
+
+.faqBox{
+    text-align: center;
+    background-color: #404040;
+    padding: 1em;
+    padding-bottom: 1.5em;
+    float:left;
+    color: white;
+    margin-bottom:0.5em
+}
+.textfaq{
+    width:50%;
+    margin:auto;
+    padding-top:0em;
+    padding-bottom:1em;
+}
